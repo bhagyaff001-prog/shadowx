@@ -1,6 +1,6 @@
 # ShadowX — Elite Access Terminal for Termux
 
-[![Version](https://img.shields.io/badge/version-3.3-brightgreen?style=flat-square)](https://github.com/YOUR-USERNAME/shadowx)
+[![Version](https://img.shields.io/badge/version-3.3-brightgreen?style=flat-square)](https://github.com/bhagyaff001-prog/shadowx)
 [![License](https://img.shields.io/badge/license-GPL%20v3-blue?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux-lightgrey?style=flat-square)](https://termux.dev)
 [![Shell](https://img.shields.io/badge/shell-bash-orange?style=flat-square)](https://www.gnu.org/software/bash/)
@@ -18,6 +18,18 @@
 
 A fully-featured, animated hacker-aesthetic boot screen for **Termux**.
 Sets up on first run, auto-boots every time you open Termux, and adapts to your screen size.
+
+---
+
+## Screenshots
+
+| Boot Screen | Login | Status Panel |
+|:-----------:|:-----:|:------------:|
+| ![Boot](Screenshot_2026-05-06-12-29-37-767_com.termux.jpg) | ![Login](Screenshot_2026-05-06-12-29-48-085_com.termux.jpg) | ![Panel](Screenshot_2026-05-06-12-29-56-597_com.termux.jpg) |
+
+| Hacker Quote | Command Menu | Theme: Red |
+|:------------:|:------------:|:----------:|
+| ![Quote](Screenshot_2026-05-06-12-30-07-468_com.termux.jpg) | ![Menu](Screenshot_2026-05-06-12-30-12-593_com.termux.jpg) | ![Red](Screenshot_2026-05-06-12-29-37-767_com.termux.jpg) |
 
 ---
 
@@ -41,16 +53,14 @@ Sets up on first run, auto-boots every time you open Termux, and adapts to your 
 ### One-line install (recommended)
 
 ```bash
-curl -sL https://raw.githubusercontent.com/YOUR-USERNAME/shadowx/main/shadowx_boot.sh \
-  -o ~/shadowx_boot.sh && chmod +x ~/shadowx_boot.sh && bash ~/shadowx_boot.sh --install
+curl -sL https://raw.githubusercontent.com/bhagyaff001-prog/shadowx/main/shadowx_boot.sh -o ~/shadowx_boot.sh && chmod +x ~/shadowx_boot.sh && bash ~/shadowx_boot.sh --install
 ```
 
 ### Manual install
 
 ```bash
 # 1. Download
-curl -sL https://raw.githubusercontent.com/YOUR-USERNAME/shadowx/main/shadowx_boot.sh \
-  -o ~/shadowx_boot.sh
+curl -sL https://raw.githubusercontent.com/bhagyaff001-prog/shadowx/main/shadowx_boot.sh -o ~/shadowx_boot.sh
 
 # 2. Make executable
 chmod +x ~/shadowx_boot.sh
@@ -62,20 +72,6 @@ bash ~/shadowx_boot.sh --install
 ```
 
 > **First launch** will run the setup wizard to set your name, password, and theme.
-
----
-
-## Screenshots
-
-> *Add your own screenshots here after running ShadowX on your device.*
-
-| Boot Screen | Login | Status Panel |
-|:-----------:|:-----:|:------------:|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
-
-| Hacker Quote | Command Menu | Theme: Red |
-|:------------:|:------------:|:----------:|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
 
 ---
 
@@ -199,3 +195,4 @@ Pull requests are welcome! If you want to add features, fix bugs, or add new the
 ---
 
 <p align="center">Made with 💚 for the Termux community</p>
+
